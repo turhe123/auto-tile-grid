@@ -1,0 +1,60 @@
+{
+  "seo_title": "One-hotkey window tiling for macOS",
+  "seo_description": "Free, open-source macOS utility that tiles every window on your screen into a tidy grid with one hotkey. Four layouts, undo, no network access.",
+  "hero_title_line1": "Every window,",
+  "hero_title_accent": "tiled in one keystroke",
+  "hero_sub": "Press Control-Option-T and every standard window on your current screen snaps into a tidy grid. Press it again to cycle layouts, or Control-Option-Z to undo.",
+  "features_title": "Tiling without the tiling manager.",
+  "features_sub": "AutoTileGrid does one job, arranging the windows on your current screen, and gives you just enough control to make it yours.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Global tile and undo hotkeys",
+      "desc": "Tile with Control-Option-T and restore the previous window positions with Control-Option-Z. Both are rebindable with a click-to-record field in Settings."
+    },
+    {
+      "icon": "display",
+      "title": "Four layouts, cycled by hotkey",
+      "desc": "Choose Equal Grid, Main Left, Main Top or Columns. Press the tile hotkey again without moving anything to jump to the next layout."
+    },
+    {
+      "icon": "sliders",
+      "title": "Gaps, margins and main ratio",
+      "desc": "Set the inner gap from 0 to 64 pt, the outer margin from 0 to 128 pt, and the main window share from 30 to 80 percent for the two main layouts."
+    },
+    {
+      "icon": "window",
+      "title": "Tiles the screen under your mouse",
+      "desc": "Only standard, non-minimized, non-fullscreen windows on that screen are arranged. Dialogs are skipped, and you can exclude any app from tiling."
+    },
+    {
+      "icon": "eye",
+      "title": "Stable, predictable placement",
+      "desc": "Windows are ordered by their current top-left position, so they do not jump around between runs. A brief on-screen label names the layout applied."
+    },
+    {
+      "icon": "bolt",
+      "title": "Lives in the menu bar",
+      "desc": "Tile Now, a Mode submenu, Undo Last Tiling and Settings are one click away. A launch at login toggle keeps it ready."
+    }
+  ],
+  "permissions_step": "When prompted, grant Accessibility access in System Settings → Privacy & Security → Accessibility so AutoTileGrid can move and resize your windows.",
+  "faq": [
+    {
+      "q": "Is AutoTileGrid really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no accounts, ads or paid tier. If it saves you time, there is an optional Support button that opens a Ko-fi page."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Accessibility, which is how macOS lets an app list other windows and set their position and size. Without it the hotkeys do nothing and the menu shows a Grant Access row. It does not request Screen Recording or Microphone access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your preferences, such as hotkeys, layout mode, spacing and excluded apps, are saved locally on your Mac. The positions used for undo are kept in memory only. The app makes no network connections and has no telemetry."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to launch it, or build it from source with Xcode and XcodeGen."
+    }
+  ]
+}

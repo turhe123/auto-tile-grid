@@ -1,5 +1,7 @@
 # AutoTileGrid
 
+**🌐 Website:** [turhe123.github.io/auto-tile-grid](https://turhe123.github.io/auto-tile-grid/)
+
 **One hotkey tiles all visible windows on a screen into a tidy grid, with layout cycling.**
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,13 @@ AutoTileGrid is a free, open-source, 100% native, backend-free alternative to pa
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu-modes.png" alt="AutoTileGrid menu bar menu showing the layout Mode submenu" width="720"></p>
+
+<p align="center"><em>The AutoTileGrid menu bar menu with the Mode submenu open, where you pick Equal Grid, Main Left, Main Top or Columns next to Tile Now and Undo Last Tiling.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="AutoTileGrid Settings window with hotkey and layout options" width="560"></p>
+
+<p align="center"><em>The Settings window, with rebindable tile and undo hotkeys, default layout mode, inner gap, outer margin and main window ratio.</em></p>
 
 ## Install
 
